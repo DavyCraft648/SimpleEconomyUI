@@ -1,10 +1,13 @@
 name: SimpleEconomyUI
-version: 1.0.0
-main: EcoUI\Main
-api: [3.11, 4.0]
-author: DontTouchMeXD
-description: EconomyUI plugin to make your life easy (please dont edit and claim this plugin)
+version: 0.0.1
+main: RicardoMilos384\SimpleEconomyUI\Main
+api: 3.11.0
+website: https://github.com/RicardoMilos384/SimpleEconomyUI
+description: EconomyUI plugin to manage your money easier
+authors: ["DontTouchMeXD", "DavyCraft648"]
+depend: EconomyAPI
 commands:
- ecoui:
-  description: "§aopen economyUI menu"
-  aliases: [economyui, econui, ecui]
+  economyui:
+    description: Open EconomyUI menu
+    aliases:
+      - ecoui
