@@ -1,13 +1,19 @@
 name: SimpleEconomyUI
-version: 0.0.1
+version: 0.0.4
 main: RicardoMilos384\SimpleEconomyUI\Main
-api: 3.11.0
+api: 3.0.0
 website: https://github.com/RicardoMilos384/SimpleEconomyUI
 description: EconomyUI plugin to manage your money easier
-authors: ["DontTouchMeXD", "DavyCraft648"]
+authors:
+  - "DontTouchMeXD"
+  - "DavyCraft648"
 depend: EconomyAPI
 commands:
   economyui:
     description: Open EconomyUI menu
     aliases:
       - ecoui
+permissions:
+  economyui.command:
+    description: Allow user to use EconomyUI
+    default: true
